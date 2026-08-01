@@ -1,23 +1,11 @@
-{
-  "expo": {
-    "name": "MBOLANI",
-    "slug": "MBOLANI",
-    "version": "1.0.0",
-    "sdkVersion": "48.0.0",
-    "platforms": ["android", "ios", "web"],
-    "android": {
-      "package": "com.farelbitome.mbolani",
-      "versionCode": 1
-  "build": {
-    "production": {
-      "android": {
-        "buildType": "apk"
-}name: EAS Android Build
+name: EAS Android Build
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
+
 jobs:
   build:
     name: Build Android APK with EAS
