@@ -8,24 +8,16 @@
     "android": {
       "package": "com.farelbitome.mbolani",
       "versionCode": 1
-    }
-  }
-}{
   "build": {
     "production": {
       "android": {
         "buildType": "apk"
-      }
-    }
-  }
 }name: EAS Android Build
-
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-
 jobs:
   build:
     name: Build Android APK with EAS
